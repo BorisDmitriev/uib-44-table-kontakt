@@ -1,0 +1,19 @@
+.content{
+    font-size: 20px;
+    width: 70%;
+    margin: 40px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid rgb(211,218,224);
+    padding: 8px;
+}
+
+td:nth-child(3){
+    text-align: right;
+}
+
+tr:nth-child(even){
+   background-color: rgb(220,220,220);
+}
